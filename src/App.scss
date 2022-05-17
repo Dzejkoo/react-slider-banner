@@ -1,0 +1,30 @@
+body {
+  /* background: #c8c6c4; */
+  background: #3498db;
+}
+
+.App {
+  font-family: sans-serif;
+  padding: 10px 30px;
+}
+
+.container{
+    img{
+        width: 100px;
+        &:hover{
+            box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+            cursor: pointer;
+        }
+    }
+}
+.App > div {
+//   background-color: #5c2e91;
+//   background-color: #fff;
+  color: #fff;
+  color: #3498db;
+  text-align: center;
+}
+.slick-arrow{
+    display: none;
+    opacity: 0;
+}
